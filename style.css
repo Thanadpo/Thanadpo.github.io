@@ -1,0 +1,50 @@
+/* Style pour le titre principal */
+h1 {
+    font-size: 30px;
+    text-align: center;
+    color: #de7471;
+    font-family: 'Arial', sans-serif; /* Ajout d'une police de secours */
+    margin-bottom: 20px; /* Ajout d'espacement sous le titre */
+}
+
+/* Style pour les paragraphes */
+p {
+    font-size: 20px;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5; /* Ajout d'un interligne pour une meilleure lisibilité */
+    color: #ffffff; /* Contraste pour s'accorder avec le fond sombre */
+}
+
+/* Style pour le corps de la page */
+body {
+    background-color: #007471;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif; /* Assure une police cohérente */
+}
+
+/* Style pour les listes */
+ul {
+    list-style-type: disc;
+    padding-left: 40px; /* Indente les puces pour une présentation nette */
+}
+
+/* Style pour les liens */
+a {
+    color: #ffa500; /* Une couleur qui se détache bien du fond */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+    color: #ff4500; /* Change de couleur pour un effet interactif */
+}
+
+/* Style pour les images */
+img {
+    max-width: 100%; /* Rend les images responsives */
+    height: auto; /* Maintient les proportions */
+    border: 2px solid #de7471; /* Encadre les images pour les faire ressortir */
+    border-radius: 5px; /* Coins légèrement arrondis */
+}
